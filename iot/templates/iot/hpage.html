@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Trevillion | IoT</title>
+    <meta name="IoT" content="trevillion-IoT"> {% load static %}
+    <!-- my created style -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/inputs.css' %}">
+    <!-- jquery ui -->
+    <link href="{% static 'resources/jqueryui/jquery-ui.css' %}" rel="stylesheet">
+    <link href="{% static 'resources/jqueryui/jquery.ui.rotatable.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class=main>
+        <div class="titlebar">
+            <!-- titlebar -->
+            <p style="padding: 10px;color:#2196f3;font-size: xx-large;margin:0;text-shadow: 3px 1px 1px #a8928c">Trevillion <span style="color: #ea6b6b">IoT</span></p>
+        </div>
+        <div class="toolbar">
+            <!-- toolbar -->
+        </div>
+        <div class='workarea_container'>
+            <div class="workarea">
+                <!-- workspace -->
+            </div>
+            <div class="properties">
+                <fieldset class="settings_p">
+                    <legend>Properties</legend>
+                    <div style="display: none">
+                        <h3>Input-Name</h3>
+                        <hr>
+                        <h4>Item-ID</h4>
+
+                        <input type="text" id="new_v" />
+                        <hr>
+                        <div class="p_bottom_panel" style="width: 100%;outline: none;border:none;height: 40px;box-sizing: border-box;background-color: green;display: flex;">
+                            <button class="input_b_update">Update</button>
+                            <button class="input_b_close" onclick="
+								$('.settings_p div').hide();
+								$('.Pmessage_').show()">Close</button>
+
+                        </div>
+                    </div>
+                    <span class="Pmessage_">
+							<br>
+							<br>
+							<br>
+							<br>
+							<p style="opacity: 0.5;font-size: small;"><img src="{% static 'img/Anonymous_aviso.svg' %}" style="width: 20px"> Click Properties From Object Menu To View properties</p>
+						</span>
+                </fieldset>
+                <br>
+                <fieldset class="connected_devices">
+                    <legend>Connected Devices</legend>
+                    <div style="display: block">
+                    </div>
+                    <span class="Dmessage_" style="justify-content: center;vertical-align: center;display: none">
+							<br>
+							<br>
+							<p style="opacity: 0.5;font-size: small;"><img src="{% static 'img/Anonymous_aviso.svg' %}" style="width: 20px"> No Device Connected</p>
+						</span>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="{% static 'resources/jqueryui/external/jquery/jquery.js' %}"></script>
+<script src="{% static 'resources/jqueryui/jquery-ui.js' %}"></script>
+<script src="{% static 'resources/jqueryui/jquery.ui.rotatable.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/menuLoad.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/domHandle.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/Elements.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/onLoad.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/wsreconnect.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/sending.js' %}"></script>
+
+
+</html>

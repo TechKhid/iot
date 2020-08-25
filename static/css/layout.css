@@ -1,0 +1,183 @@
+.main{
+width: 100%;
+height: 100vh;
+background-color: #333
+}
+.toolbar
+{
+width: 100%;
+padding: 0;
+background-color: #2196F3;
+height: 100px!important;
+box-sizing: border-box;
+display: flex;
+max-height: 100px!important;
+padding: 20px;
+}
+.titlebar
+{
+
+background-image: url('../img/btn_t2.png');
+width: 100%;
+padding: 0;
+background-color: #fff;
+height: 50px!important;
+box-sizing: border-box;
+display: flex;
+padding-left: 30px
+}
+.workarea_container
+{
+width: 100%;
+height:calc(100vh - 150px);
+display: block;
+position: relative;
+margin:0;
+padding: 0;
+display: flex;
+}
+.workarea{
+margin: auto;
+display: block;
+position: relative;
+height: 100%;
+width: 80%;
+background-image: url('../img/btn_t2.png');
+background-color: #fff;
+box-sizing: border-box;
+padding: 20px
+}
+.properties
+{
+
+position: relative;
+width: 20%;
+height:100%;
+background-color: #2196f3;
+padding: 10px;
+box-sizing: border-box;
+display: block;
+border-top: solid 0.01px #fff;
+
+}
+.properties fieldset div
+{
+width: 100%;
+height: -webkit-fill-available;
+box-sizing: border-box;
+overflow-y: auto;
+padding: 0;
+margin: 0;
+display: block;
+position: relative;
+}
+.properties fieldset.settings_p div h3
+{
+color: #f57c7c
+}
+.properties fieldset.settings_p div h4
+{
+margin:0;margin-bottom: 10px;color: #777620
+}
+.properties fieldset.settings_p div input
+{
+width: 100%;
+outline: none;
+border: solid 1px #2196f3;
+height: 30px;
+box-sizing: border-box;
+padding-left: 10px;
+padding-right: 10px;
+background-color: transparent;
+color: #333;
+margin-bottom: 20px;
+box-shadow: inset 0 0 2px #909090;
+
+}
+.properties fieldset.settings_p div input::placeholder
+{
+color: red;
+font-size: larger;
+}
+.properties fieldset.settings_p
+{
+padding: 10px;
+height:calc(100% - 230px);
+width: -webkit-fill-available;
+border: 2px solid #2196f3;
+position: relative;
+box-sizing: border-box;
+background-color: #fbfbfb;
+}
+.properties fieldset.connected_devices
+{
+background-color: #fbfbfb;
+bottom: 0;
+height: 180px;
+margin: 0;
+border: 2px solid #2196f3;
+display: block;
+position: relative;
+}
+.properties fieldset legend
+{
+color: #fff;
+background-color: #2196f3;
+margin: 0;
+padding: 5px;
+box-shadow: 0px 2px 2px #84848480;
+}
+.p_bottom_panel button
+{
+width: -webkit-fill-available;
+border:none;
+cursor: pointer;
+}
+.input_b_update
+{
+background-color: #50c550;
+}
+.input_b_update:hover
+{
+background-color: #296729;
+color: #fff
+}
+.input_b_close:hover
+{
+background-color:#d80000;
+color: #fff
+}
+.input_b_close
+{
+background-color: #f57c7c;
+}
+hr{
+border: solid 0.05px #9ec6e6;
+}
+/***********************************************************************************************/
+/* *********************************************** */
+/* *********************************************** */
+/* *********************************************** */
+.ico-holder-container{
+display: inline-block;
+height: 2em;
+line-height: 2em;
+position: relative;
+vertical-align: middle;
+width: 2.5em
+}
+.ico-holder
+{
+left: 0;
+position: absolute;
+text-align: center;
+width: 100%;
+}
+.ico-:before {
+content: url(../img/pro-mini-nologo.svg);
+display: block;
+position: relative;
+height: 50px;
+width: 50px;
+margin: auto;
+}

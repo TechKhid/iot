@@ -1,0 +1,59 @@
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg1" viewBox="0 0 58 55" style=" width:25px; height:30px; ">
+  <defs id="defs5">
+    <radialGradient id="radialGradient8586" gradientUnits="userSpaceOnUse" cy="26.101" cx="75.315" gradientTransform="matrix(1.5253 0 0 .95956 -82.702 13.23)" r="20.225">
+      <stop id="stop8583" offset="0"/>
+      <stop id="stop8584" stop-color="#fff" stop-opacity="0" offset="1"/>
+    </radialGradient>
+  </defs>
+  <path id="path7955" d="m29.135 18.927c-13.173 2-23.418 12-26.345 21-1.464 4-2.9276 9 1.4633 13 8.7817 6 32.2 5 43.909 4 4.391-1 10.245-2 13.172-5 2.928-4 1.464-9 0-13-4.391-9-16.099-21-32.199-20z" fill="url(#radialGradient8586)"/>
+  <path id="selection_to_path" d="m27.013 6.6199c-9 2-16 12-18 21-0.9995 4-1.9995 9 1 13 6 6 22 5 30 4 3-1 7-2 9-5 2-4 1-9 0-13-3-9-11-21-22-20z" stroke="#000" stroke-width="4.0991" fill="#ffbe39" style="&#10;    fill: #fff;&#10;"/>
+  <path id="path6087" d="m25.073 17.33c0.522-3.126 5.92-2.463 5.796 0.095 0.143 3.861-0.287 8.954-1.506 11.962-0.331 1.989-2.382 2.274-2.927 0-0.765-2.156-1.96-6.869-1.363-12.057z" fill="#fff" fill-opacity=".80755" style="&#10;    fill: #2196F3;&#10;"/>
+  <path id="rect1708" stroke="#000" stroke-width=".56598" d="m26.748 17.146c0.521-3.127 5.92-2.464 5.795 0.095 0.144 3.861-0.286 8.953-1.506 11.961-0.33 1.99-2.381 2.274-2.926 0-0.765-2.155-1.961-6.869-1.363-12.056z"/>
+  <path id="path6088" d="m31.292 35.87a2.6604 2.6604 0 1 1 -5.321 0 2.6604 2.6604 0 1 1 5.321 0z" fill="#fff" transform="matrix(.99636 0 0 .99636 -.53242 -.33970)" fill-opacity=".67547" style="&#10;    fill: #2196F3;&#10;"/>
+  <path id="path2956" d="m31.292 35.87a2.6604 2.6604 0 1 1 -5.321 0 2.6604 2.6604 0 1 1 5.321 0z" stroke="#000" stroke-width=".8698" transform="matrix(.99636 0 0 .99636 1.1424 -.52412)"/>
+  <path id="path7332" d="m27.611 9.2428c-9 2.0002-14.078 10.279-16.078 19.279-1 4-1.7589 6.917 1.194 10.783 0.977 0.976 4.36 2.206 5.999 2.57-1.181-0.398-5.19-2.47-5.827-3.62-1.64-3.27-1.525-5.922-0.622-8.64 2-9 5.884-16.097 14.884-19.511 2.574-0.2344 4.456 0.132 6.676 1.117-2.745-1.6666-2.863-2.2838-6.226-1.9782z" fill="#fff" fill-opacity=".83774" style="&#10;    fill: #2196F3;&#10;"/>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>aviso</dc:title>
+        <dc:date>2009-06-03T04:37:45</dc:date>
+        <dc:description>from the old OCAL site</dc:description>
+        <dc:source>http://openclipart.org/detail/26420/aviso-by-anonymous</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Anonymous</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>activity</rdf:li>
+            <rdf:li>appicon</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>computer</rdf:li>
+            <rdf:li>icon</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>logo</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>tool</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
