@@ -76,21 +76,43 @@ class ioTConsumer(AsyncWebsocketConsumer):
             message = {"receive_type":receive_type,"device_name":message_type}
         except:
             pass
+        
 
+            
+        try:
+            message_type = text_data_json['de_device']
+            receive_type = "de_device"
+            message = {"receive_type":receive_type,"device_name":message_type}
+        except:
+            pass
+        
+        
         #print(message)
         
         # Send message to current project  
         await self.channel_layer.group_send(
             self.project_name,
             {
-                'type': 'chat_message',
+                'type': 'iot_message',
                 'message': message
             }
         )
 
     # Receive message from current project  
-    async def chat_message(self, event):
+    async def iot_message(self, event):
         message = event['message']
+        
+
+        
+        try:  
+            if(message["receive_type"] =="data_send"):
+
+                await self.send(text_data=json.dumps({
+                'Element': message["incoming_element"],
+                'Data':message["incoming_data"]
+                }))
+        except:
+            pass
         
 
         try :
@@ -103,17 +125,17 @@ class ioTConsumer(AsyncWebsocketConsumer):
         except:
             pass
         
-        try:  
-            if(message["receive_type"] =="data_send"):
 
+        try :
+            if(message["receive_type"] =="de_device"):  
+         # Send message to WebSocket
+        
                 await self.send(text_data=json.dumps({
-                'Element': message["incoming_element"],
-                'Data':message["incoming_data"]
+                'de_device': message["device_name"]
                 }))
         except:
             pass
         
- 
 
         # Send message to WebSocket
         

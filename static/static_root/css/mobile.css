@@ -1,0 +1,40 @@
+/********************************************/
+
+.workarea>.icon_tools {
+    box-shadow: 0 0 5px 0px #808080!important;
+}
+
+.workarea>.icon_tools>div {
+    cursor: disable;
+}
+
+@media screen and (max-width: 700px) {
+    .toolbar {
+        overflow-y: scroll;
+    }
+    .toolbar::-webkit-scrollbar {
+        display: none;
+    }
+    .ui-draggable-handle {
+        position: relative!important;
+    }
+    .workarea_container {
+        width: 100%;
+    }
+    .workarea {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .workarea>.icon_tools {
+        display: block;
+        min-width: initial !important;
+        min-height: initial!important;
+        flex-basis: fill;
+        position: relative!important;
+    }
+    .main {
+        height: fit-content;
+        position: relative;
+    }
+}

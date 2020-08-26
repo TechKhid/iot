@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/layout.css' %}">
     <link rel="stylesheet" type="text/css" href="{% static 'css/inputs.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mobile.css' %}">
+
     <!-- jquery ui -->
     <link href="{% static 'resources/jqueryui/jquery-ui.css' %}" rel="stylesheet">
     <link href="{% static 'resources/jqueryui/jquery.ui.rotatable.css' %}" rel="stylesheet">
@@ -47,7 +49,7 @@
 
                         </div>
                     </div>
-                    <span class="Pmessage_">
+                    <span class="Pmessage_"> 
 							<br>
 							<br>
 							<br>
@@ -58,9 +60,9 @@
                 <br>
                 <fieldset class="connected_devices">
                     <legend>Connected Devices</legend>
-                    <div style="display: block">
+                    <div style="display: none" id="device_loadBox">
                     </div>
-                    <span class="Dmessage_" style="justify-content: center;vertical-align: center;display: none">
+                    <span class="Dmessage_" style="justify-content: center;vertical-align: center">
 							<br>
 							<br>
 							<p style="opacity: 0.5;font-size: small;"><img src="{% static 'img/Anonymous_aviso.svg' %}" style="width: 20px"> No Device Connected</p>
